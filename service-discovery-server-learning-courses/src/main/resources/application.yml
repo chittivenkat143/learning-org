@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: learning-service-discovery
+    
+server:
+  port: 9091
+  
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    
+    

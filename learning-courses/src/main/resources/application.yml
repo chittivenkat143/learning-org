@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: service-learning-course
+  data:
+    mongodb:
+      repositories:
+        type: reactive
+      uri: mongodb://localhost:27017/MongoMicroDB
+  mongodb:
+    embedded:
+      version: 4.2.8
+server:
+  port: 8081
+  
+#Reference for QueryDSL https://www.baeldung.com/queries-in-spring-data-mongodb
+mongodb:
+  host: localhost
+  port: 27017
+  dbname: MongoMicroDB
+  
+
+#eureka:
+#  client:
+#    service-url:
+#     defaultZone: http://localhost:8761/eureka 
+    
